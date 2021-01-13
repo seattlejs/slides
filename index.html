@@ -1,57 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width initial-scale=1 user-scalable=no"
-    />
-    <title>SeattleJS February Meetup</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://unpkg.com/normalize.css@7/normalize.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <style>
-      a,
-      a:link,
-      a:focus,
-      a:visited,
-      a:active,
-      a:hover {
-        text-decoration: none;
-        color: #000;
-      }
 
-      .flex-row {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="https://unpkg.com/prop-types@15/prop-types.js"></script>
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
-    <script src="https://unpkg.com/spectacle@^4/dist/spectacle.js"></script>
-    <script src="https://unpkg.com/spectacle@^4/lib/one-page.js"></script>
-    <script src="https://unpkg.com/victory@^0.25/dist/victory.js"></script>
-    <script type="text/spectacle">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" />
+  <title>SeattleJS February Meetup</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css" />
+  <link href="https://unpkg.com/normalize.css@7/normalize.css" rel="stylesheet" type="text/css" />
+  <style>
+    a,
+    a:link,
+    a:focus,
+    a:visited,
+    a:active,
+    a:hover {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .flex-row {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/prop-types@15/prop-types.js"></script>
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+  <script src="https://unpkg.com/spectacle@^4/dist/spectacle.js"></script>
+  <script src="https://unpkg.com/spectacle@^4/lib/one-page.js"></script>
+  <script src="https://unpkg.com/victory@^0.25/dist/victory.js"></script>
+  <script type="text/spectacle">
       () => {
         // Customize the default theme.
         const { themes: { defaultTheme } } = Spectacle;
@@ -67,21 +54,14 @@
             transition={["slide"]}
             transitionDuration={500}
           >
-          <Slide bgColor="secondary">
-            <Heading fit caps>
-                SeattleJS
+
+            <Slide bgColor="secondary">
+              <Heading fit caps>
+                Seattle JS
               </Heading>
               <Heading fit caps style="margin-top: 1em" >
-                February Meetup
+                January Virtual Meetup
               </Heading>
-              <div className="flex-row">
-                <Image src={"images/galvanize-logo.png"}
-              alt="Galvanize logo" width={"50%"}  />
-              <Image src={"images/formidable-white.svg"}
-              alt="Formidable logo" width={"50%"} />
-            </div>
-
-
               <footer style={{paddingTop: "1em"}}>
                 <Link href="https://twitter.com/seattlejs">
                   <Code textColor="white">@SeattleJS</Code>
@@ -94,26 +74,15 @@
                 A Big Thank You
               </Heading>
               <Heading fit caps >
-                to our host
-              </Heading>
-                <Image src={"images/galvanize-logo.png"}
-                alt="Galvanize logo" width={"150%"} style={{marginTop: "-5%"}} />
-            </Slide>
-
-            <Slide bgColor="secondary">
-              <Heading fit caps >
-                A Big Thank You
-              </Heading>
-              <Heading fit caps >
-                to our sponsor
+                to our host and sponsor
               </Heading>
               <Image src={"images/formidable-white.svg"}
                 alt="Formidable logo" width={"150%"} style={{marginTop: "5%"}} />
             </Slide>
 
             <Slide bgColor="secondary">
-              <Heading fit caps>SeattleJS</Heading>
-              <Heading fit caps>Is Your Meetup</Heading>
+              <Heading fit caps>Seattle JS</Heading>
+              <Heading fit caps style={{marginTop: "5%"}}>Is Your Meetup</Heading>
             </Slide>
 
             <Slide bgColor="secondary">
@@ -161,55 +130,25 @@
             </Slide>
 
             <Slide>
-              <Heading fit style={{marginTop: "-15%"}} >
-                New Ongoing Sponsor!
-                </Heading>
-               <Heading fit>Wallaby and Quokka</Heading>
-              <Heading fit caps style={{marginTop: "5%"}}>License Givaways</Heading>
-              <Heading fit caps style={{marginTop: "5%"}}>Drawing next week</Heading>
-              <Heading fit caps style={{marginTop: "5%"}}>https://forms.gle/mwyD5gsSJr8LyTdV6</Heading>
+              <Image src={"images/test-js-summit-white.svg"}
+              alt="Test JS Summit logo" width={"100%"} />
+              <Heading fit caps style={{marginTop: "5%"}}>Full Access Ticket Giveaway</Heading>
+              <Heading fit caps style={{marginTop: "5%"}}>Drawing at end of event</Heading>
+              <Heading fit caps style={{marginTop: "5%"}}>https://forms.gle/FU6xy1WHPJRmqvKX9</Heading>
                 <footer style={{paddingTop: "1em"}}>
                   <Link href="https://twitter.com/seattlejs">
-                    <Code textColor="white">@seattlejs</Code>
-                  </Link>
-                </footer>
-              </Slide>
-
-            <Slide>
-              <Heading fit caps style={{marginTop: "5%"}}>React Summit Conference Ticket Giveaway</Heading>
-              <Heading fit caps style={{marginTop: "5%"}}>Drawing next week</Heading>
-              <Heading fit caps style={{marginTop: "5%"}}>https://forms.gle/pE5xhfDAWakNGnF38</Heading>
-                <footer style={{paddingTop: "1em"}}>
-                  <Link href="https://twitter.com/seattlejs">
-                    <Code textColor="white">@seattlejs</Code>
+                    <Code textColor="white">Find the form link on Twitter @seattlejs</Code>
                   </Link>
                 </footer>
               </Slide>
 
             <Slide>
               <Heading fit style={{marginTop: "-15%"}} >
-                SeattleJS Hackers
+                Seattle JS Hackers
                 </Heading>
-               <Heading fit>Code Katas</Heading>
-              <Heading fit caps style={{marginTop: "5%"}}>Next Tuesday, 5:30-8:30pm @ Galvanize</Heading>
-                <footer style={{paddingTop: "1em"}}>
-                  <Link href="https://twitter.com/seattlejs">
-                    <Code textColor="white">@seattlejs</Code>
-                  </Link>
-                </footer>
-              </Slide>
-
-            <Slide>
-              <Image src={"images/ng-girls.png"} alt="ng-girls logo" width={"70%"} style={{marginTop: "-5%"}}/>
-              <Heading fit >
-                Participant Signup Deadline 2/19
-                </Heading>
-              <Heading  >
-                Mentors Wanted
-                </Heading>
-              <Heading fit >
-              https://ng-girls.org/seattle-2020/
-                </Heading>
+               <Heading >Code Katas [Virtual]</Heading>
+              <Heading caps style={{marginTop: "5%", fontSize: "60px"}}>Every 3rd Tuesday, 5:30pm-8:00pm</Heading>
+              <Heading caps style={{marginTop: "5%", fontSize: "60px"}}>Next Event: January 19th</Heading>
 
                 <footer style={{paddingTop: "1em"}}>
                   <Link href="https://twitter.com/seattlejs">
@@ -218,33 +157,43 @@
                 </footer>
               </Slide>
 
-            <Slide>
-              <Heading fit>Free Code Camp Seattle</Heading>
-              <Image src={"images/fcc-react.png"} alt="fcc info" width={"150%"} />
-              <Heading fit >
-              https://www.meetup.com/free-code-camp-sea/events/268470305/
-                </Heading>
+              <Slide>
+                <Heading fit style={{marginTop: "-15%"}} >
+                  Seattle JS Hackers
+                  </Heading>
+                 <Heading >Virtual Coffee</Heading>
+                <Heading caps style={{marginTop: "5%", fontSize: "60px"}}>Every 2nd Sunday, 11:30am-2:00pm</Heading>
+                <Heading caps style={{marginTop: "5%", fontSize: "60px"}}>Next Event: February 14th</Heading>
+  
+                  <footer style={{paddingTop: "1em"}}>
+                    <Link href="https://twitter.com/seattlejs">
+                      <Code textColor="white">@seattlejs</Code>
+                    </Link>
+                  </footer>
+                </Slide>
 
-                <footer style={{paddingTop: "1em"}}>
-                  <Link href="https://twitter.com/seattlejs">
-                    <Code textColor="white">@seattlejs</Code>
-                  </Link>
-                </footer>
-              </Slide>
-
-
-
+                <Slide>
+                  <Heading fit style={{marginTop: "-15%"}} >
+                    Interview Prep Workshop
+                    </Heading>
+                   <Heading >with Hatchways</Heading>
+                  <Heading fit caps style={{marginTop: "5%", fontSize: "60px"}}>January 21st, 5:00pm-6:00pm</Heading>
+    
+                    <footer style={{paddingTop: "1em"}}>
+                      <Link href="https://twitter.com/seattlejs">
+                        <Code textColor="white">@seattlejs</Code>
+                      </Link>
+                    </footer>
+                  </Slide>
 
             <Slide bgColor="secondary">
               <Heading fit caps>Community Minute</Heading>
-
               <footer style={{paddingTop: "1em"}}>
                 <Link href="https://twitter.com/seattlejs">
                   <Code textColor="white">@seattlejs</Code>
                 </Link>
               </footer>
             </Slide>
-
 
             <Slide bgColor="secondary">
               <Heading fit caps>
@@ -258,25 +207,24 @@
             </Slide>
 
             <Slide bgColor="secondary">
-              <Heading fit caps>Amber Hoak</Heading>
-              <Heading fit caps >Observable: The magic notebook for</Heading>
-              <Heading fit caps >Exploring Data</Heading>
+              <Heading fit caps>Jon Borgonia</Heading>
+              <Heading fit style={{marginTop: "5%"}}>20 - 21 Developer Tips</Heading>
+              <Heading fit >to Optimize your Workflow</Heading>
               <footer style={{paddingTop: "1em"}}>
-                <Link href="https://twitter.com/amber_hoak">
-                  <Code textColor="white">@amber_hoak</Code>
+                <Link href="https://twitter.com/theRemix">
+                  <Code textColor="white">@theRemix</Code>
                 </Link>
               </footer>
             </Slide>
 
             <Slide bgColor="secondary">
               <Heading fit caps>
-              Ather Sharif
+              Justin Lee
               </Heading>
-              <Heading fit caps >Metis</Heading>
-              <Heading fit caps >Using Google Sheets as a Makeshift Database for React Apps</Heading>
+              <Heading fit style={{marginTop: "5%"}}>Getting Started with TypeScript</Heading>
               <footer style={{paddingTop: "1em"}}>
-                <Link href="https://twitter.com/athersharif">
-                  <Code textColor="white">@athersharif</Code>
+                <Link href="https://twitter.com/JustinOliverLee">
+                  <Code textColor="white">@JustinOliverLee</Code>
                 </Link>
               </footer>
             </Slide>
@@ -286,12 +234,9 @@
               <Heading fit caps >
                 Sponsor ❤
               </Heading>
-              <div className="flex-row">
-                <Image src={"images/galvanize-logo.png"}
-              alt="Galvanize logo" width={"50%"} style={{marginTop: "-5%"}} />
+              
               <Image src={"images/formidable-white.svg"}
-              alt="Formidable logo" width={"50%"} style={{marginTop: "-5%"}} />
-            </div>
+              alt="Formidable logo" width={"100%"} style={{marginTop: "5%"}} />
             </Slide>
 
             <Slide bgColor="secondary">
@@ -307,10 +252,12 @@
 
             <Slide bgColor="secondary">
               <Heading fit caps>Thanks For Coming!</Heading>
+              <Heading fit caps>Time for the ticket drawing</Heading>
             </Slide>
           </Deck>
         );
       }
     </script>
-  </body>
+</body>
+
 </html>
