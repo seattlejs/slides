@@ -5,7 +5,7 @@ import FormidableLogo from '../../images/formidable-white.svg';
 
 const VirtualCoffee = () => {
   return (
-    <SlideDeck title='Monthly Meetup'>
+    <SlideDeck title='Virtual Coffee'>
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading>
