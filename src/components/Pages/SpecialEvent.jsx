@@ -113,11 +113,11 @@ const SpecialEvent = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Slack:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
         </FlexBox>
       </Slide>
 
@@ -129,11 +129,11 @@ const SpecialEvent = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Slack:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1}>Link in Pinned Tweet</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>Link in Pinned Tweet</Link>
         </FlexBox>
       </Slide>
 

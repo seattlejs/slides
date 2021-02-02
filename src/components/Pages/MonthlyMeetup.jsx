@@ -1,6 +1,6 @@
 import React from 'react';
 import SlideDeck from './SlideDeck';
-import { Slide, Heading, FlexBox, Image, Appear, Link } from 'spectacle';
+import { Slide, Heading, FlexBox, Image, Appear, Link, CodeSpan as Code } from 'spectacle';
 import FormidableLogo from '../../images/formidable-white.svg';
 
 const MonthlyMeetup = () => {
@@ -79,7 +79,7 @@ const MonthlyMeetup = () => {
               </Heading>
             }
           />
-          <Link fontSize='h3' lineHeight={1} color='secondary'>
+          <Link fontSize='h3' lineHeight={1} color='primary'>
             SeattleJS.com
           </Link>
           <Appear elementNum={5} />
@@ -94,11 +94,11 @@ const MonthlyMeetup = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Slack:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1}>Link in Pinned Tweet</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>Link in Pinned Tweet</Link>
         </FlexBox>
       </Slide>
 
@@ -197,12 +197,23 @@ const MonthlyMeetup = () => {
         </FlexBox>
       </Slide>
 
-      <Slide bgColor="secondary">
+      <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading >
             Sponsor ❤
           </Heading>
           <Image src={FormidableLogo} />
+        </FlexBox>
+      </Slide>
+
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Heading fontSize='65px'>
+            Find these and past Talks on <Code fontSize='65px' color='primary' fontFamily='header'>Youtube</Code>.
+          </Heading>
+          <Heading fontSize='65px' >
+            Search <Code fontSize='65px' color='primary' fontFamily='header'>Seattle JS</Code> to find our Channel
+          </Heading>
         </FlexBox>
       </Slide>
 

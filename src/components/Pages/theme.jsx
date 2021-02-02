@@ -1,7 +1,7 @@
 export const theme = {
   size: {
     width: 1366,
-    height: 768,
+    height: 840,
     maxCodePaneHeight: 200,
   },
   colors: {

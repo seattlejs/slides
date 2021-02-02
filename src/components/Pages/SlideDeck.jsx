@@ -14,15 +14,15 @@ const SlideDeck = props => {
       transitionEffect='slide'
       template={() => {
         return (
-          <FlexBox justifyContent="space-between" position="fixed" bottom={0} width={1} zIndex={1000}>
-            <Box >
+          <FlexBox justifyContent="space-between" position="fixed" bottom={0} width={1} >
+            <Box padding='0 20px'>
               <FullScreen />
             </Box>
             <Box >
               <Progress />
             </Box>
-            <Box >
-              <Link to='/slides' style={{ color: '#FFFFFF', fontSize: '40px', textDecoration: 'none', zIndex: '2001', pointerEvents: 'auto' }}>⌂</Link>
+            <Box padding='0 20px'>
+              <Link to='/slides' style={{ color: '#FFFFFF', fontSize: '40px', textDecoration: 'none', pointerEvents: 'auto' }}>⌂</Link>
             </Box>
           </FlexBox>
         );

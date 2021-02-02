@@ -15,7 +15,7 @@ const CodeKatas = () => {
             Code Katas [Virtual]
           </Heading>
           <Code textAlign='center'>
-            Please join our Slack to participate, then join the Katas Channel. Find the Slack invite link at <Link color='secondary' margin='0px' padding='0px'>SeattleJSHackers.com</Link>.
+            Please join our Slack to participate, then join the "Katas" Channel. Find the Slack invite link at <Link fontFamily='monospace' color='primary' margin='0px' padding='0px'>SeattleJSHackers.com</Link>.
           </Code>
           <Heading fontSize='text'>
             Event Starts at 6pm PST
@@ -43,11 +43,11 @@ const CodeKatas = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Slack:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
         </FlexBox>
       </Slide>
 
@@ -59,11 +59,11 @@ const CodeKatas = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Slack:
           </Heading>
-          <Link color='secondary' fontSize='h3' lineHeight={1}>Link in Pinned Tweet</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1}>Link in Pinned Tweet</Link>
         </FlexBox>
       </Slide>
 
@@ -162,8 +162,8 @@ const CodeKatas = () => {
           <Heading fontSize='h1'>
             Community Minute
           </Heading>
-          <Heading fontSize='h1'>
-            Final Thoughts
+          <Heading fontSize='h3'>
+            Final Thoughts and Feedback
           </Heading>
         </FlexBox>
       </Slide>
