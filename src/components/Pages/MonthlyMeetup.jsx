@@ -2,6 +2,8 @@ import React from 'react';
 import SlideDeck from './SlideDeck';
 import { Slide, Heading, FlexBox, Image, Appear, Link, CodeSpan as Code } from 'spectacle';
 import FormidableLogo from '../../images/formidable-white.svg';
+import DWLogo from '../../images/developer-week-logo.png';
+import DWHero from '../../images/developer-week.png';
 
 const MonthlyMeetup = () => {
   return (
@@ -32,15 +34,32 @@ const MonthlyMeetup = () => {
         </FlexBox>
       </Slide>
 
-      <Slide bgColor="secondary">
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Heading fontSize='h2'>
+            A Big Thank You To
+          </Heading>
+          <Heading fontSize='h2'>
+            Our Raffle Sponsor
+          </Heading>
+          <Image src={DWLogo} width="100%" style={{ marginTop: '35px' }} />
+        </FlexBox>
+      </Slide>
+
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Image src={DWHero} width="100%" />
+        </FlexBox>
+      </Slide>
+
+      <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading >Seattle JS</Heading>
           <Heading >Is Your Meetup</Heading>
         </FlexBox>
       </Slide>
 
-
-      <Slide bgColor="secondary">
+      <Slide>
         <FlexBox flexDirection='column' justifyContent='flex-start' alignItems='center' flex='1'>
           <Heading fontSize='h3'>Your meetup needs you!</Heading>
           <Appear
@@ -193,6 +212,29 @@ const MonthlyMeetup = () => {
           </Heading>
           <Link fontSize='h3' color='secondary' textDecoration='none'>
             @evantahler
+          </Link>
+        </FlexBox>
+      </Slide>
+
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Heading fontSize='h1'>
+            Intermission
+          </Heading>
+          <Heading fontSize='h3'>Event will resume shortly</Heading>
+        </FlexBox>
+      </Slide>
+
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Heading fontSize='h2'>
+            Chris Griffing
+          </Heading>
+          <Heading fontSize='h3'>
+            Tech Twitch and You
+          </Heading>
+          <Link fontSize='h3' color='secondary' textDecoration='none'>
+            @cmgriffing
           </Link>
         </FlexBox>
       </Slide>

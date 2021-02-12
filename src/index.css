@@ -24,7 +24,7 @@ body {
 
 }
 
-.home-subtitle {
+.subtitle {
   color: #FFFFFF;
   font-size: 75px;
   margin: 0 0 20px;
@@ -34,4 +34,87 @@ body {
   color: #FFFFFF;
   font-size: 50px;
   margin: 0 0 20px;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea, .winner-c, .prize-c {
+  width: 250px;
+  height: 500px;
+  resize: none;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  border: red solid 1px;
+  border-radius: 5px;
+}
+
+button {
+  border: red solid 1px;
+  background-color: black;
+  border-radius: 5px;
+  color: red;
+  font-size: 18px;
+}
+
+input {
+  border: red solid 1px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+
+}
+.prize-b, .winner-b {
+  opacity: 0;
+  transition: opacity .4s linear;
+}
+
+.prize-r:hover .prize-b, .winner-r:hover .winner-b {
+  opacity: 1;
+}
+
+.prize-r, .winner-r {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  font-size: 25px;
+  color: red;
+
+}
+.limit-flex {
+  display: flex;
+}
+
+.limit-div {
+  width: 100px;
+  font-size: 18px;
+  color: red;
+
+}
+.limit-b {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.raffle-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }

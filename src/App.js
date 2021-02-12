@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import { Home, MonthlyMeetup, SpecialEvent, CodeKatas, VirtualCoffee } from './components/Pages';
+import { Home, MonthlyMeetup, SpecialEvent, CodeKatas, VirtualCoffee, Raffle } from './components/Pages';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <Route exact path='/slides/special-event' component={SpecialEvent} />
         <Route exact path='/slides/code-katas' component={CodeKatas} />
         <Route exact path='/slides/virtual-coffee' component={VirtualCoffee} />
+        <Route exact path='/slides/raffle' component={Raffle} />
 
         <Redirect from='/' to='/slides' />
       </Switch>

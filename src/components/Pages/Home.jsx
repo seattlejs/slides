@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className='page'>
       <h1 className='home-title'>Seattle JS Event Slides</h1>
-      <h3 className='home-subtitle'>Events:</h3>
+      <h3 className='subtitle'>Events:</h3>
       <Link className='home-link' to='/slides/monthly-meetup'>
         Monthly Meetup
       </Link>
@@ -21,6 +21,10 @@ const Home = () => {
       </Link>
       <Link className='home-link' to='/slides/special-event'>
         Special Event
+      </Link>
+      <h3 className='subtitle'>Tools:</h3>
+      <Link className='home-link' to='/slides/raffle'>
+        Raffle
       </Link>
     </div>
   );
