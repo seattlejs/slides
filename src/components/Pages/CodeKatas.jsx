@@ -87,7 +87,7 @@ const CodeKatas = () => {
             Every 2nd Sunday 11:30am to 2:00pm PST
           </Heading>
           <Heading fontSize='text'>
-            Next Event: March 14th
+            Next Event: April 11th
           </Heading>
         </FlexBox>
       </Slide>
@@ -104,7 +104,7 @@ const CodeKatas = () => {
             Every 2rd Thursday 6:00pm to 8:00pm PST
           </Heading>
           <Heading fontSize='text'>
-            Next Event: March 11th
+            Next Event: April 8th
           </Heading>
         </FlexBox>
       </Slide>
@@ -153,7 +153,7 @@ const CodeKatas = () => {
             Thanks for Joining Us!
           </Heading>
           <Heading fontSize='h3'>
-            Join us next time on March 16th
+            Join us next time on April 20th
           </Heading>
         </FlexBox>
       </Slide>

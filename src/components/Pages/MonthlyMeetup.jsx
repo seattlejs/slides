@@ -14,7 +14,7 @@ const MonthlyMeetup = () => {
             Seattle JS
           </Heading>
           <Heading>
-            February
+            March
           </Heading>
           <Heading>
             Virtual Meetup
@@ -34,7 +34,7 @@ const MonthlyMeetup = () => {
         </FlexBox>
       </Slide>
 
-      <Slide>
+      {/* <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h2'>
             A Big Thank You To
@@ -50,7 +50,7 @@ const MonthlyMeetup = () => {
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Image src={DWHero} width="100%" />
         </FlexBox>
-      </Slide>
+      </Slide> */}
 
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
@@ -141,7 +141,7 @@ const MonthlyMeetup = () => {
             Every 2nd Sunday 11:30am to 2:00pm PST
           </Heading>
           <Heading fontSize='text'>
-            Next Event: February 14th
+            Next Event: March 14th
           </Heading>
         </FlexBox>
       </Slide>
@@ -158,7 +158,7 @@ const MonthlyMeetup = () => {
             Every 3rd Tuesday 5:30pm to 8:00pm PST
           </Heading>
           <Heading fontSize='text'>
-            Next Event: February 16th
+            Next Event: March 16th
           </Heading>
         </FlexBox>
       </Slide>
@@ -182,14 +182,14 @@ const MonthlyMeetup = () => {
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h2'>
-            Mike Cataldo
+            Damon Chivers
           </Heading>
           <Heading fontSize='text'>
-            Making Testing Fun Again with Cypress
+            Using Hooks with React-Redux
           </Heading>
-          <Link fontSize='h3' color='secondary' textDecoration='none'>
+          {/* <Link fontSize='h3' color='secondary' textDecoration='none'>
             @mccataldo
-          </Link>
+          </Link> */}
         </FlexBox>
       </Slide>
 
@@ -205,18 +205,18 @@ const MonthlyMeetup = () => {
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h2'>
-            Evan Tahler
+            Carmen Miller
           </Heading>
           <Heading fontSize='text'>
-            Sharing (Typescript) Types Across the Stack
+            Acing the Technical Interview
           </Heading>
-          <Link fontSize='h3' color='secondary' textDecoration='none'>
+          {/* <Link fontSize='h3' color='secondary' textDecoration='none'>
             @evantahler
-          </Link>
+          </Link> */}
         </FlexBox>
       </Slide>
 
-      <Slide>
+      {/* <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h1'>
             Intermission
@@ -237,7 +237,7 @@ const MonthlyMeetup = () => {
             @cmgriffing
           </Link>
         </FlexBox>
-      </Slide>
+      </Slide> */}
 
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
