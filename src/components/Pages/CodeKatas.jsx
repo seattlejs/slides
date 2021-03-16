@@ -18,7 +18,7 @@ const CodeKatas = () => {
             Please join our Slack to participate, then join the "Katas" Channel. Find the Slack invite link at <Link fontFamily='monospace' color='primary' margin='0px' padding='0px'>SeattleJSHackers.com</Link>.
           </Code>
           <Heading fontSize='text'>
-            Event Starts at 6pm PST
+            Event Starts at 6pm PT
           </Heading>
         </FlexBox>
       </Slide>
@@ -87,7 +87,7 @@ const CodeKatas = () => {
             Every 1st Thursday 5:30pm to 7:00pm PT
           </Heading>
           <Heading fontSize='text'>
-            Next Event: April 11th
+            Next Event: April 1st
           </Heading>
         </FlexBox>
       </Slide>
