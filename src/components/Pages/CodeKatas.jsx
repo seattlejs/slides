@@ -84,7 +84,7 @@ const CodeKatas = () => {
             Virtual Coffee
           </Heading>
           <Heading fontSize='text'>
-            Every 2nd Sunday 11:30am to 2:00pm PST
+            Every 1st Thursday 5:30pm to 7:00pm PT
           </Heading>
           <Heading fontSize='text'>
             Next Event: April 11th
@@ -101,7 +101,7 @@ const CodeKatas = () => {
             Monthly Virtual Meetup
           </Heading>
           <Heading fontSize='text'>
-            Every 2rd Thursday 6:00pm to 8:00pm PST
+            Every 2rd Thursday 6:00pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
             Next Event: April 8th

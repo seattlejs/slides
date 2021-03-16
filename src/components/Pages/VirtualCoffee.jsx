@@ -81,7 +81,7 @@ const VirtualCoffee = () => {
             Code Katas [Virtual]
           </Heading>
           <Heading fontSize='text'>
-            Every 3rd Tuesday 5:30pm to 8:00pm PST
+            Every 3rd Tuesday 5:30pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
             Next Event: March 16th
@@ -98,7 +98,7 @@ const VirtualCoffee = () => {
             Monthly Virtual Meetup
           </Heading>
           <Heading fontSize='text'>
-            Every 2rd Thursday 6:00pm to 8:00pm PST
+            Every 2rd Thursday 6:00pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
             Next Event: April 8th

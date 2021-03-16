@@ -138,7 +138,7 @@ const MonthlyMeetup = () => {
             Virtual Coffee
           </Heading>
           <Heading fontSize='text'>
-            Every 2nd Sunday 11:30am to 2:00pm PST
+            Every 1st Thursday 5:30pm to 7:00pm PT
           </Heading>
           <Heading fontSize='text'>
             Next Event: March 14th
@@ -155,7 +155,7 @@ const MonthlyMeetup = () => {
             Code Katas [Virtual]
           </Heading>
           <Heading fontSize='text'>
-            Every 3rd Tuesday 5:30pm to 8:00pm PST
+            Every 3rd Tuesday 5:30pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
             Next Event: March 16th
