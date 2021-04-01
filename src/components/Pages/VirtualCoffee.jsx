@@ -84,7 +84,7 @@ const VirtualCoffee = () => {
             Every 3rd Tuesday 5:30pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
-            Next Event: March 16th
+            Next Event: April 20th
           </Heading>
         </FlexBox>
       </Slide>
@@ -137,7 +137,7 @@ const VirtualCoffee = () => {
             Thanks for Joining Us!
           </Heading>
           <Heading fontSize='h3'>
-            Join us next time on April 11th
+            Join us next time on May 6th
           </Heading>
         </FlexBox>
       </Slide>

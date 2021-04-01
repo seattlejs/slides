@@ -141,7 +141,7 @@ const MonthlyMeetup = () => {
             Every 1st Thursday 5:30pm to 7:00pm PT
           </Heading>
           <Heading fontSize='text'>
-            Next Event: March 14th
+            Next Event: May 6th
           </Heading>
         </FlexBox>
       </Slide>
@@ -158,7 +158,7 @@ const MonthlyMeetup = () => {
             Every 3rd Tuesday 5:30pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
-            Next Event: March 16th
+            Next Event: April 20th
           </Heading>
         </FlexBox>
       </Slide>
