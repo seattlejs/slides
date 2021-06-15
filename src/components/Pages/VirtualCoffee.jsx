@@ -83,13 +83,13 @@ const VirtualCoffee = () => {
           <Heading fontSize='text'>
             Every 3rd Tuesday 5:30pm to 8:00pm PT
           </Heading>
-          <Heading fontSize='text'>
-            Next Event: April 20th
-          </Heading>
+          {/* <Heading fontSize='text'>
+            Next Event: May 18th
+          </Heading> */}
         </FlexBox>
       </Slide>
 
-      <Slide backgroundColor='primary'>
+      {/* <Slide backgroundColor='primary'>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading>
             Seattle JS
@@ -101,10 +101,10 @@ const VirtualCoffee = () => {
             Every 2rd Thursday 6:00pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
-            Next Event: April 8th
+            Next Event: May 13th
           </Heading>
         </FlexBox>
-      </Slide>
+      </Slide> */}
 
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
@@ -137,7 +137,7 @@ const VirtualCoffee = () => {
             Thanks for Joining Us!
           </Heading>
           <Heading fontSize='h3'>
-            Join us next time on May 6th
+            Join us next month.
           </Heading>
         </FlexBox>
       </Slide>

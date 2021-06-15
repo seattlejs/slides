@@ -86,13 +86,13 @@ const CodeKatas = () => {
           <Heading fontSize='text'>
             Every 1st Thursday 5:30pm to 7:00pm PT
           </Heading>
-          <Heading fontSize='text'>
-            Next Event: May 6th
-          </Heading>
+          {/* <Heading fontSize='text'>
+            Next Event: June 3rd
+          </Heading> */}
         </FlexBox>
       </Slide>
 
-      <Slide backgroundColor='primary'>
+      {/* <Slide backgroundColor='primary'>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading>
             Seattle JS
@@ -104,10 +104,10 @@ const CodeKatas = () => {
             Every 2rd Thursday 6:00pm to 8:00pm PT
           </Heading>
           <Heading fontSize='text'>
-            Next Event: May 13th
+            Next Event: June 10th
           </Heading>
         </FlexBox>
-      </Slide>
+      </Slide> */}
 
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
@@ -153,7 +153,7 @@ const CodeKatas = () => {
             Thanks for Joining Us!
           </Heading>
           <Heading fontSize='h3'>
-            Join us next time on April 20th
+            Join us next month.
           </Heading>
         </FlexBox>
       </Slide>
