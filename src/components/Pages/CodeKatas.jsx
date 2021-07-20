@@ -75,7 +75,7 @@ const CodeKatas = () => {
         </FlexBox>
       </Slide>
 
-      <Slide backgroundColor='primary'>
+      {/* <Slide backgroundColor='primary'>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading>
             Seattle JS Hackers
@@ -86,11 +86,11 @@ const CodeKatas = () => {
           <Heading fontSize='text'>
             Every 1st Thursday 5:30pm to 7:00pm PT
           </Heading>
-          {/* <Heading fontSize='text'>
+          <Heading fontSize='text'>
             Next Event: June 3rd
-          </Heading> */}
+          </Heading> 
         </FlexBox>
-      </Slide>
+      </Slide> */}
 
       {/* <Slide backgroundColor='primary'>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
