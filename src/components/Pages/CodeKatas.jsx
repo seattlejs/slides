@@ -2,27 +2,43 @@ import React from 'react';
 import SlideDeck from './SlideDeck';
 import { Slide, Heading, FlexBox, Image, Link, CodeSpan as Code } from 'spectacle';
 import FormidableLogo from '../../images/formidable-white.svg';
-
+import AWSSmile from '../../images/awsSmile.png'
 const CodeKatas = () => {
   return (
     <SlideDeck title='Code Katas'>
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
-          <Heading>
-            Seattle JS Hackers
+          <Heading fontSize={175}>
+            Code Katas
           </Heading>
-          <Heading>
-            Code Katas [Virtual]
+          <Heading fontSize={85}>
+            with Seattle JS Hackers
           </Heading>
           <Code textAlign='center'>
-            Please join our Slack to participate, then join the "Katas" Channel. Find the Slack invite link at <Link fontFamily='monospace' color='primary' margin='0px' padding='0px'>SeattleJSHackers.com</Link>.
+            Please join our Discord to participate, then join the "Katas" Channel. Find the Discord link at <Link fontFamily='monospace' color='primary' margin='0px' padding='0px'>SeattleJS.com/join</Link>.
           </Code>
           <Heading fontSize='text'>
             Event Starts at 6pm PT
           </Heading>
         </FlexBox>
       </Slide>
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Heading fontSize='h2'>
+            A Big Thank You To
+          </Heading>
+          <Heading fontSize='h2'>
+            Our Host
+          </Heading>
 
+
+          <Heading fontSize='h2'>
+            <FlexBox flexDirection='row' alignItems='flex-start'>
+              <Image src={AWSSmile} width={250} style={{ margin: '25px 25px 0 0' }} /> Skills Center
+            </FlexBox>
+          </Heading>
+        </FlexBox>
+      </Slide>
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h2'>
@@ -61,9 +77,9 @@ const CodeKatas = () => {
           </Heading>
           <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
           <Heading fontSize='h3' lineHeight={1}>
-            Join our Slack:
+            Join our Discord:
           </Heading>
-          <Link color='primary' fontSize='h3' lineHeight={1}>Link in Pinned Tweet</Link>
+          <Link color='primary' fontSize='h3' lineHeight={1}>SeattleJS.com/join</Link>
         </FlexBox>
       </Slide>
 
@@ -143,6 +159,11 @@ const CodeKatas = () => {
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading >
             Sponsor ❤
+          </Heading>
+          <Heading fontSize='148px'>
+            <FlexBox flexDirection='row' alignItems='flex-start'>
+              <Image src={AWSSmile} width={345} style={{ margin: '41px 24px 0 0' }} /> Skills Center
+            </FlexBox>
           </Heading>
           <Image src={FormidableLogo} />
         </FlexBox>

@@ -1,6 +1,15 @@
 import React from 'react';
 import SlideDeck from './SlideDeck';
-import { Slide, Heading, Progress, FullScreen, Image, FlexBox, Box, Link } from 'spectacle';
+import {
+  Slide,
+  Heading,
+  // Progress, 
+  // FullScreen, 
+  Image,
+  FlexBox,
+  // Box, 
+  Link
+} from 'spectacle';
 import FormidableLogo from '../../images/formidable-white.svg';
 
 const SpecialEvent = () => {
@@ -141,7 +150,7 @@ const SpecialEvent = () => {
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h1'>
             Our Talk
-        </Heading>
+          </Heading>
         </FlexBox>
       </Slide>
 

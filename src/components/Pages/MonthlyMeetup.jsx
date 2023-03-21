@@ -2,8 +2,8 @@ import React from 'react';
 import SlideDeck from './SlideDeck';
 import { Slide, Heading, FlexBox, Image, Appear, Link, CodeSpan as Code } from 'spectacle';
 import FormidableLogo from '../../images/formidable-white.svg';
-import DWLogo from '../../images/developer-week-logo.png';
-import DWHero from '../../images/developer-week.png';
+// import DWLogo from '../../images/developer-week-logo.png';
+// import DWHero from '../../images/developer-week.png';
 
 const MonthlyMeetup = () => {
   return (
