@@ -45,7 +45,7 @@ const CodeKatas = () => {
             A Big Thank You To
           </Heading>
           <Heading fontSize='h2'>
-            Our Sponsor And Host
+            Our Sponsor
           </Heading>
           <Image src={FormidableLogo} />
         </FlexBox>
