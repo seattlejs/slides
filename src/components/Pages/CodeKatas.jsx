@@ -14,8 +14,8 @@ const CodeKatas = () => {
           <Heading fontSize={85}>
             with Seattle JS Hackers
           </Heading>
-          <Code textAlign='center'>
-            Please join our Discord to participate, then join the "Katas" Channel. Find the Discord link at <Link fontFamily='monospace' color='primary' margin='0px' padding='0px'>SeattleJS.com/join</Link>.
+          <Code textAlign='center' color='#FF0000'>
+            Please join our Discord to participate, then join the "Katas" Channel. Find the Discord link at <Link fontFamily='monospace' color='#FF0000' margin='0px' padding='0px'>SeattleJS.com/join</Link>.
           </Code>
           <Heading fontSize='text'>
             Event Starts at 6pm PT
@@ -59,11 +59,11 @@ const CodeKatas = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Slack:
           </Heading>
-          <Link color='primary' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
         </FlexBox>
       </Slide>
 
@@ -75,11 +75,11 @@ const CodeKatas = () => {
           <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='primary' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Discord:
           </Heading>
-          <Link color='primary' fontSize='h3' lineHeight={1}>SeattleJS.com/join</Link>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1}>SeattleJS.com/join</Link>
         </FlexBox>
       </Slide>
 
