@@ -2,7 +2,9 @@ import React from 'react';
 import SlideDeck from './SlideDeck';
 import { Slide, Heading, FlexBox, Image, Link, CodeSpan as Code } from 'spectacle';
 import FormidableLogo from '../../images/formidable-white.svg';
-import AWSSmile from '../../images/awsSmile.png'
+import AWSSmile from '../../images/awsSmile.png';
+import Seekout from '../../images/seekout-logo.svg';
+
 const CodeKatas = () => {
   return (
     <SlideDeck title='Code Katas'>
@@ -39,6 +41,19 @@ const CodeKatas = () => {
           </Heading>
         </FlexBox>
       </Slide>
+
+      <Slide>
+        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
+          <Heading fontSize='h2'>
+            A Big Thank You To
+          </Heading>
+          <Heading fontSize='h2'>
+            Our Sponsor
+          </Heading>
+          <Image src={Seekout} width={1100} style={{ marginTop: '35px' }} />
+        </FlexBox>
+      </Slide>
+
       <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h2'>
@@ -157,15 +172,19 @@ const CodeKatas = () => {
 
       <Slide bgColor="secondary">
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
-          <Heading >
+          {/* <Heading >
             Sponsor ❤
-          </Heading>
+          </Heading> */}
           <Heading fontSize='148px'>
             <FlexBox flexDirection='row' alignItems='flex-start'>
               <Image src={AWSSmile} width={345} style={{ margin: '41px 24px 0 0' }} /> Skills Center
             </FlexBox>
           </Heading>
+
+          <Image src={Seekout} width={1100} style={{ marginBottom: '20px' }} />
+
           <Image src={FormidableLogo} />
+
         </FlexBox>
       </Slide>
       <Slide>
