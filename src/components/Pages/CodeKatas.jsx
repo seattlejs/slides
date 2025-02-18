@@ -58,12 +58,12 @@ const CodeKatas = () => {
           <Heading lineHeight={1}>
             Seattle JS Hackers
           </Heading>
-          <Heading fontSize='h3' lineHeight={1}>
+          {/* <Heading fontSize='h3' lineHeight={1}>
             Follow us on Twitter:
           </Heading>
-          <Link color='#FF0000' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1} textDecoration='none'>@JS_Hackers</Link> */}
           <Heading fontSize='h3' lineHeight={1}>
-            Join our Slack:
+            Find out more at
           </Heading>
           <Link color='#FF0000' fontSize='h3' lineHeight={1}>SeattleJSHackers.com</Link>
         </FlexBox>
@@ -75,9 +75,9 @@ const CodeKatas = () => {
             Seattle JS
           </Heading>
           <Heading fontSize='h3' lineHeight={1}>
-            Follow us on Twitter:
+            Find out more at:
           </Heading>
-          <Link color='#FF0000' fontSize='h3' lineHeight={1} textDecoration='none'>@SeattleJS</Link>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1} textDecoration='none'>SeattleJS.com</Link>
           <Heading fontSize='h3' lineHeight={1}>
             Join our Discord:
           </Heading>
@@ -90,6 +90,10 @@ const CodeKatas = () => {
           <Heading fontSize='h1'>
             Upcoming Events
           </Heading>
+          <Heading fontSize='h3' lineHeight={1}>
+            Find more info at
+          </Heading>
+          <Link color='#FF0000' fontSize='h3' lineHeight={1}>lu.ma/seattlejs</Link>
         </FlexBox>
       </Slide>
 
