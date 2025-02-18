@@ -163,9 +163,9 @@ const CodeKatas = () => {
 
       <Slide bgColor="secondary">
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
-          {/* <Heading >
+          <Heading >
             Sponsor ❤
-          </Heading> */}
+          </Heading>
           <Heading fontSize='148px'>
             <FlexBox flexDirection='row' alignItems='flex-start'>
               <Image src={AWSSmile} width={345} style={{ margin: '41px 24px 0 0' }} /> Skills Center
