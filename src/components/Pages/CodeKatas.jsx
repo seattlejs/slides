@@ -1,7 +1,6 @@
 import React from 'react';
 import SlideDeck from './SlideDeck';
 import { Slide, Heading, FlexBox, Image, Link, CodeSpan as Code } from 'spectacle';
-import FormidableLogo from '../../images/formidable-white.svg';
 import AWSSmile from '../../images/awsSmile.png';
 import Seekout from '../../images/seekout-logo.svg';
 
@@ -51,18 +50,6 @@ const CodeKatas = () => {
             Our Sponsor
           </Heading>
           <Image src={Seekout} width={1100} style={{ marginTop: '35px' }} />
-        </FlexBox>
-      </Slide>
-
-      <Slide>
-        <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
-          <Heading fontSize='h2'>
-            A Big Thank You To
-          </Heading>
-          <Heading fontSize='h2'>
-            Our Sponsor
-          </Heading>
-          <Image src={FormidableLogo} />
         </FlexBox>
       </Slide>
 
@@ -182,8 +169,6 @@ const CodeKatas = () => {
           </Heading>
 
           <Image src={Seekout} width={1100} style={{ marginBottom: '20px' }} />
-
-          <Image src={FormidableLogo} />
 
         </FlexBox>
       </Slide>
