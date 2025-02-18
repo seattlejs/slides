@@ -85,7 +85,7 @@ const CodeKatas = () => {
         </FlexBox>
       </Slide>
 
-      <Slide backgroundColor='primary'>
+      <Slide>
         <FlexBox flexDirection='column' justifyContent='center' alignItems='center' flex='1'>
           <Heading fontSize='h1'>
             Upcoming Events
